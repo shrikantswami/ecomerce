@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<!-- {%  load static %} -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1,shrink-to-fit=no">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="loader" href="css/base.css">
+
+
+  <!-- Content here -->
+          <!-- <nav class="navbar navbar-default techfont custom-navbar" >
+            <div class="container">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Products</a></li>
+              </ul>
+          </div>
+      </nav> -->
+      <!-- <div class="container"> -->
+        {% block Content %}
+        {% endblock %}
+      </div>
+</div>
+  </body>
+</html>
